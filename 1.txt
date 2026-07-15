@@ -2,3 +2,8 @@ class Employee(models.Model):
 	eid=models.integerfield()
         ename=models.charfield(maxlength=50)
         esal=models.integerfield()     
+
+
+class employee():
+    def registration(request):
+          return render(request,'myapp/register.html')
