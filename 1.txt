@@ -1,15 +1,14 @@
 class Employee(models.Model):
 	eid=models.integerfield()
         ename=models.charfield(maxlength=50)
-<<<<<<< Updated upstream
+
         esal=models.integerfield()     
 
 
 class employee():
     def registration(request):
           return render(request,'myapp/register.html')
-=======
-        esal=models.integerfield() 
+
 
 
 class employee():
@@ -17,4 +16,3 @@ class employee():
             return render(request,'myapp/login.html)
         
 
->>>>>>> Stashed changes
