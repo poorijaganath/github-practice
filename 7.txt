@@ -1,3 +1,7 @@
 pavan
 
+<<<<<<< HEAD
 gjgehejhhiejhth
+=======
+hello world
+>>>>>>> 4a58ed2041f3bd38776dfa54fa0b9b084669b023
